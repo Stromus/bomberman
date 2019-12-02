@@ -1,0 +1,32 @@
+# GITIGNORE #
+
+# temporary files
+*.c~
+*.o
+*.o~
+*.so
+.\#*
+\#*\#
+*.swp
+*.cpp~
+*.hpp~*
+*.gcno
+*.gcda
+
+# binaries
+a.out
+
+# IDE folders
+.vs/
+.vscode/
+.idea/
+.virtualenvs/
+vgcore.*
+cmake-build-debug/
+
+# Project specifics
+Makefile
+lib/
+*.db
+build/
+res/
