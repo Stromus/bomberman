@@ -26,7 +26,5 @@ cmake-build-debug/
 
 # Project specifics
 Makefile
-lib/
 *.db
 build/
-res/

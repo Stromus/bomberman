@@ -1,0 +1,6 @@
+MENU_SELECTION:selection_SE.ogg
+MENU_ENTER:click_SE.ogg
+BOMB_EXPLOSION:explo_SE.ogg
+BAD_POWER_UP:power_down_SE.ogg
+GOOD_POWER_UP:power_up_SE.ogg
+DEATH:death_SE.ogg

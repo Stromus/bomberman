@@ -1,0 +1,3 @@
+EN:flag_en.png:english.txt
+FR:flag_fr.png:french.txt
+SP:flag_sp.png:spanish.txt

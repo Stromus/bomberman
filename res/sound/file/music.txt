@@ -1,0 +1,5 @@
+INTRO:music_intro.ogg
+BATTLE:music_battle.ogg
+CREDITS:music_credits.ogg
+MENU:music_menu.ogg
+WINNER:victory_SE.ogg
