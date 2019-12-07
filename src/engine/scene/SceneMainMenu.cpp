@@ -18,12 +18,8 @@ engine::SceneMainMenu::SceneMainMenu()
 	Scale::scaleRes(805, 350, 1115, 450), Language::getInstance()->getTranslate(Language::NEW_GAME)));
 	this->addInGraphElem(BUTTON_LOAD, render::MenuElementCreator::createButton(0,\
 	Scale::scaleRes(805, 470, 1115, 570), Language::getInstance()->getTranslate(Language::LOADING)));
-	this->addInGraphElem(BUTTON_SETTINGS, render::MenuElementCreator::createButton(0,\
-	Scale::scaleRes(805, 590, 1115, 690), Language::getInstance()->getTranslate(Language::SETTINGS)));
-	//this->addInGraphElem(BUTTON_CREDITS, render::MenuElementCreator::createButton(0,\
-	//Scale::scaleRes(805, 830, 1115, 930), Language::getInstance()->getTranslate(Language::CREDITS)));
 	this->addInGraphElem(BUTTON_QUIT, render::MenuElementCreator::createButton(0,\
-	Scale::scaleRes(805, 710, 1115, 810), Language::getInstance()->getTranslate(Language::QUIT)));
+	Scale::scaleRes(805, 590, 1115, 690), Language::getInstance()->getTranslate(Language::QUIT)));
 
 	_menuDisplay = new render::MenuDisplay(_graphElem);
 }

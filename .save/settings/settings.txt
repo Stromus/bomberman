@@ -1,5 +1,5 @@
-music=0
-sound=0
+music=30
+sound=30
 fps=300
 fullscreen=1
 resolution=1920x1080

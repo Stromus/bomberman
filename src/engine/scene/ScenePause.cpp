@@ -22,10 +22,8 @@ engine::ScenePause::ScenePause()
 	Scale::scaleRes(805, 470, 1115, 570), Language::getInstance()->getTranslate(Language::LOADING)));
 	this->addInGraphElem(SAVE, render::MenuElementCreator::createButton(0, \
 	Scale::scaleRes(805, 590, 1115, 690), Language::getInstance()->getTranslate(Language::SAVE)));
-	this->addInGraphElem(SETTINGS, render::MenuElementCreator::createButton(0,\
-	Scale::scaleRes(805, 710, 1115, 810), Language::getInstance()->getTranslate(Language::SETTINGS)));
 	this->addInGraphElem(QUIT, render::MenuElementCreator::createButton(0,\
-	Scale::scaleRes(805, 830, 1115, 930), Language::getInstance()->getTranslate(Language::QUIT_GAME)));
+	Scale::scaleRes(805, 710, 1115, 810), Language::getInstance()->getTranslate(Language::QUIT_GAME)));
 
 	_menuDisplay = new render::MenuDisplay(_graphElem);
 }
